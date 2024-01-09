@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 
-void function(char name[], int age){
+double functional(number){
 
-    printf("Your name is %s \n", name);
-    printf("You are %i years old", age);
+    number = number * number;
+    return number;
 
 }
 
-int main(){
-
-    function("Beligo", 17);
-    
-    return 0;
+void main(){
+    double y = functional(6);
+    printf("%lf", y);
 }
+
+
+
