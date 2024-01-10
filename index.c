@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+double functional();
+
+void main(){
+    double x = functional(6);
+
+    for(double y; y <= 10; y++){
+        printf("%lf \n", x);
+    }
+}
 
 double functional(number){
 
@@ -7,11 +16,4 @@ double functional(number){
     return number;
 
 }
-
-void main(){
-    double y = functional(6);
-    printf("%lf", y);
-}
-
-
 
