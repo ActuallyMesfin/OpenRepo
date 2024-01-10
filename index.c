@@ -1,19 +1,21 @@
 #include <stdio.h>
 
-double functional();
+int main(){
 
-void main(){
-    double x = functional(6);
+    int number;
+    printf("Enter height and width: ");
+    scanf("%i", &number);
 
-    for(double y; y <= 10; y++){
-        printf("%lf \n", x);
+    for(int i = 1; i < number; i++){
+
+        printf("#\n");
+
+        for(int j = 1; j < number; j++){
+
+            printf("#");
+        }
+        
     }
+
+    return 0;
 }
-
-double functional(number){
-
-    number = number * number;
-    return number;
-
-}
-
