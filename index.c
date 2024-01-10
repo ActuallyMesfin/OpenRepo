@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#no it does not work lol
 int main(){
 
     int number;
