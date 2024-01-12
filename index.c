@@ -1,5 +1,5 @@
 #include <stdio.h>
-//no it does not work lol
+//code to make that weird triangle from CS50
 int main(){
 
     int number;
