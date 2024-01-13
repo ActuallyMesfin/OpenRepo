@@ -1,20 +1,13 @@
 #include <stdio.h>
-//no it does not work lol
+
 int main(){
 
-    int number;
-    printf("Enter height and width: ");
-    scanf("%i", &number);
+    int grid[3][3] = {{0,0,0},
+                     {0,0,0},
+                     {0,0,0}};
 
-    for(int i = 1; i <= number; i++){
-
-        printf("#\n");
-
-        for(int j = 1; j <= i; j++){
-
-            printf("#");
-        }
+    for(int i = 0; i < sizeof(grid)/sizeof(grid[0][0]); i++){
+        printf("%i\n", grid[i][i]);
     }
-
     return 0;
 }
