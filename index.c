@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
 
     int grid[3][3] = {{0,0,0},
