@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-double function(int position){
-
-    double array[3][3] = {{0, 0, 0}, 
-                         {1, 1, 1}, 
-                         {2, 2, 2}};
-
-    array[1][1] = position;
-
-    return position;
-}
+typedef struct
+{
+    char name[24];
+    char something;
+    int age;
+    double salary;
+} User;
 
 void main(){
 
-    printf("%lf", function(2));
-    
+    User user1 = {"Mesfin", '@', 19, 34000.50};
+    printf("%s", user1.age);
+    printf("%c", user1.something);
+    printf("%i", user1.age);
+    printf("%lf", user1.salary);
 }
