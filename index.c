@@ -1,27 +1,18 @@
 #include <stdio.h>
 
-void arrays(){
+double function(int position){
 
-    int x, y;
+    double array[3][3] = {{0, 0, 0}, 
+                         {1, 1, 1}, 
+                         {2, 2, 2}};
 
-    printf("Enter numbers x and y : ");
-    scanf("%i", &x);
-    scanf("%i", &y);
+    array[1][1] = position;
 
-    char string[] = "Array of strings";
-    int numbers[] = {1, x, 3}; //array of integers
-    double morenumbers[] = {2.0, 3.5, y}; //array of doubles
-
-    printf("%s \n", string);
-    printf("%i \n", numbers[1]);
-    printf("%lf \n", morenumbers[2]);
-
+    return position;
 }
 
-int main(){
+void main(){
 
-    arrays();
-
-    return 0;
+    printf("%lf", function(2));
+    
 }
-
