@@ -1,12 +1,27 @@
 #include <stdio.h>
+
+void arrays(){
+
+    int x, y;
+
+    printf("Enter numbers x and y : ");
+    scanf("%i", &x);
+    scanf("%i", &y);
+
+    char string[] = "Array of strings";
+    int numbers[] = {1, x, 3}; //array of integers
+    double morenumbers[] = {2.0, 3.5, y}; //array of doubles
+
+    printf("%s \n", string);
+    printf("%i \n", numbers[1]);
+    printf("%lf \n", morenumbers[2]);
+
+}
+
 int main(){
 
-    int grid[3][3] = {{0,0,0},
-                     {0,0,0},
-                     {0,0,0}};
+    arrays();
 
-    for(int i = 0; i < sizeof(grid)/sizeof(grid[0][0]); i++){
-        printf("%i\n", grid[i][i]);
-    }
     return 0;
 }
+
