@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main(){
 
-    enum Days{does, this, make, the, code, more, readable};
+    srand(time(0));
 
-    printf("No lol");
+    int ranum = rand() % 11;
 
-    return 0;
+    printf("%i", ranum);
+
 }
