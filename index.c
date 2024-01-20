@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+//figuring out the size of shit
+ int main(){
 
-int main(){
+    char a = '#';
 
-    srand(time(0));
-
-    int ranum = rand() % 11;
-
-    printf("%i", ranum);
-
-}
+    printf("%c \n", sizeof(a));
+    printf("%hd \n", sizeof(a));
+    printf("%i \n", sizeof(a));
+    printf("%ld \n", sizeof(a));
+    printf("%lf \n", sizeof(a));
+    
+    return 0;
+ }
