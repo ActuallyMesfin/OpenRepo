@@ -1,1 +1,0 @@
-//can I import this header file to my main c code?
