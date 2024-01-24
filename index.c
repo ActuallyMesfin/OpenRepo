@@ -1,16 +1,28 @@
 #include <stdio.h>
 
+void line(){
+
+    printf("\n------------------------------\n");
+
+}
+
+
 int main(){
 
-    char list[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    int value = 3;
+    int *pValue = &value;
 
-    for (int i = 0; i < sizeof(list); i++)
-    {
-        printf("Letter : %c, ", list[i]);
-        printf("Index: %i, ", i);
-        printf("Bytes: %i, ", sizeof(list[i]));
-        printf("Address: %p \n", &list[i]);
-    }
+    line();
+
+    printf("Original Value : %d \n", value);
+    printf("Original Address : %p", &value);
+
+    line();
+
+    printf("Pointer Value : %d \n", *pValue);
+    printf("Pointer Address I think : %p", &pValue);
+
+    line();
     
     return 0;
 }
