@@ -1,28 +1,16 @@
 #include <stdio.h>
 
-void line(){
-
-    printf("\n------------------------------\n");
-
-}
-
-
 int main(){
 
-    int value = 3;
-    int *pValue = &value;
 
-    line();
+    int x = 30;
 
-    printf("Original Value : %d \n", value);
-    printf("Original Address : %p", &value);
 
-    line();
+    FILE *pF = fopen("littlecunt.txt", "w");
 
-    printf("Pointer Value : %d \n", *pValue);
-    printf("Pointer Address I think : %p", &pValue);
+    fprintf(pF, "%d", x);
 
-    line();
-    
+    fclose(pF);
+
     return 0;
 }
