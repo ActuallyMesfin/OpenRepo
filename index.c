@@ -1,16 +1,1 @@
-#include <stdio.h>
-
-int main(){
-
-
-    int x = 30;
-
-
-    FILE *pF = fopen("littlecunt.txt", "w");
-
-    fprintf(pF, "%d", x);
-
-    fclose(pF);
-
-    return 0;
-}
+//I learned the basics. What now? I'm so lost I'm genuinely tweakin out
