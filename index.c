@@ -1,7 +1,16 @@
-//Here's what I'm gonna do. Leetcode. I'll practice there and then come back. I'll be the best I promise
-int main(){
 
-    printf("I'll be back");
+int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
+    
+    nums[5] = {1, 2, 3, 4, 5};
+    target = 3;
+    numsSize = sizeof(nums);
 
-    return 0;
+    for(int i < numsSize; i = 0; i++){
+        for(int j; j = 0; j++){
+            if(nums[i] + nums[j] == target){
+                return("[%d, %d]", i, j);
+            }
+        }
+    }
+
 }
