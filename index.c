@@ -1,14 +1,17 @@
-//there's a nation wide power problem rn. The lights are flickering. Let me get a quick function in rq
-//I just realized after finishing this function that I didn't even need to include <stdio.h>? tf? 
-double sum();
+//WAKE UP! IT'S THE FIRST OF THE MONTH!
+
+#include <stdio.h>
 
 int main(){
 
-    printf("%.1lf", sum(1, 2));
+    char days[4] = "Dick";
 
+    for(int i; i = 0; i++){
+        printf("%c", days[i]);
+    }
+
+    
     return 0;
 }
 
-double sum(int number1, int number2){
-    return number1 + number2;
-}
+
