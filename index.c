@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-main(){
+int main(){
 
-    float celc, fahr, jump;
+    int x = 10;
 
-    fahr = 0;
-    jump = 5;
-
-    while(fahr <= 50){
-
-        celc = 5 * (fahr - 32) / 9;
-        printf("%.1f \t %.1f \n", fahr, celc);
-        fahr += jump;
-        
+    for(int i = x - 1; i <= x && i >= 0; i--){
+        printf("#\n");
+        for(int j = 0; j < i; j++){
+            printf(" ");
+        }
     }
 
     return 0;
