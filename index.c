@@ -1,15 +1,13 @@
 #include <stdio.h>
 
-int main(){
+main(){
 
-    int x = 10;
+    char hello[] = "Hello";
 
-    for(int i = x - 1; i <= x && i >= 0; i--){
-        printf("#\n");
-        for(int j = 0; j < i; j++){
-            printf(" ");
-        }
+    for(int i = 0; i <= sizeof(hello) - 2; i++){
+        printf("%c \t %p \n", hello[i], &hello[i]);
     }
-
+    //where did that two come from? Why are there two null lines that take up 2 bytes of RAM?
+    //Is this what they meant when they said C is death incarnate? >_<
     return 0;
 }
