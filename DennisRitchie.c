@@ -1,22 +1,27 @@
 #include <stdio.h>
-int power(int m, int n);
 
-main()
-{
-    int i;
-    for (i = 0; i < 10; ++i){
-        printf ( "%d %d %d\n", i, power( 2, i), power( -3, i));
+#define int size = 9; //Size of the array?
+#define int checker; //alternates between 0 and 1
+
+int main(){
+    int screen[3][3] = {{0,0,0}, 
+                        {0,0,0}, 
+                        {0,0,0}};
+
+    for(int i; i <= 9; i++){
+
+        for(int j; j <= i; j++){
+
+            if(screen[i][j] == 0){
+                checker++;
+                printf("Pixel at location [%d][%d] is Black", i, j);
+            }
+            else{
+                printf("Pixel at location [%d][%d] is White", i, j);
+                continue;
+            }
+        }
     }
+    
     return 0;
 }
-
-
-int power(int base, int n)
-{
-    int i, p;
-    p = 1;
-    for (i = 1; i <= n; ++i){
-        p = p * base;
-    }
-    return p; 
-} 
