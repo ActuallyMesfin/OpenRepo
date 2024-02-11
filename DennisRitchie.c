@@ -1,20 +1,22 @@
 #include <stdio.h>
+int power(int m, int n);
 
-double vat(double income);
-double insurance(double income);
-
-int main(){
-    double income = 50000;
-    income = vat(income);
-    income = insurance(income);
-    printf("Your final income is : %lf", income);
+main()
+{
+    int i;
+    for (i = 0; i < 10; ++i){
+        printf ( "%d %d %d\n", i, power( 2, i), power( -3, i));
+    }
     return 0;
 }
 
-double vat(double income){
-    return ((income * 15) / 100);
-}
 
-double insurance(double income){
-    return (income - ((income * 5)/100));
-}
+int power(int base, int n)
+{
+    int i, p;
+    p = 1;
+    for (i = 1; i <= n; ++i){
+        p = p * base;
+    }
+    return p; 
+} 
