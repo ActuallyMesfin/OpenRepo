@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-#define int size = 9; //Size of the array?
-#define int checker; //alternates between 0 and 1
+int size = 9; 
+int checker;
 
 int main(){
     int screen[3][3] = {{0,0,0}, 
                         {0,0,0}, 
                         {0,0,0}};
 
-    for(int i; i <= 9; i++){
+    for(int i; i <= size; i++){
 
         for(int j; j <= i; j++){
 
