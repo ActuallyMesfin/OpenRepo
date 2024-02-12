@@ -12,3 +12,10 @@ main(){
     return 0;
 }
 //fuck everyone 
+//yeah you know what imma make a function
+//that says that for me
+
+void fuck_everybody(){
+
+        printf("Fuck Everybody");
+}
