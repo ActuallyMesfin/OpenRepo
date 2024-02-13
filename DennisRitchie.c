@@ -1,27 +1,16 @@
 #include <stdio.h>
 
-int size = 9; 
-int checker;
+main(){
 
-int main(){
-    int screen[3][3] = {{0,0,0}, 
-                        {0,0,0}, 
-                        {0,0,0}};
-
-    for(int i; i <= size; i++){
-
-        for(int j; j <= i; j++){
-
-            if(screen[i][j] == 0){
-                checker++;
-                printf("Pixel at location [%d][%d] is Black", i, j);
-            }
-            else{
-                printf("Pixel at location [%d][%d] is White", i, j);
-                continue;
-            }
+    int array[5] = {0,0,0,0,0};
+    for(int i; i = 0; i++){
+        if(i % 2 == 0){
+            array[i] = 1;
         }
+        i++;
+        printf("%i", array[i]);
     }
+    
     
     return 0;
 }
