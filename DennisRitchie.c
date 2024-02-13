@@ -11,6 +11,5 @@ main(){
         printf("%i", array[i]);
     }
     
-    
     return 0;
 }
