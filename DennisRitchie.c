@@ -1,15 +1,23 @@
-#include <stdio.h>
+#include <stdio.h> 
+// A normal function with an int parameter 
+// and void return type 
+void fun(int a) 
+{ 
+	printf("Value of a is %d\n", a); 
+} 
 
-int main(){
-    int number = 2;
+int main() 
+{ 
+	// fun_ptr is a pointer to function fun() 
+	void (*fun_ptr)(int) = &fun; 
 
-    printf("%p\n", &number);
-    printf("%d\n", number);
+	/* The above line is equivalent of following two 
+	void (*fun_ptr)(int); 
+	fun_ptr = &fun; 
+	*/
 
-    int *pNumber = &number;
+	// Invoking fun() using fun_ptr 
+	(*fun_ptr)(10); 
 
-    printf("%p\n", &pNumber);
-    printf("%d\n", *pNumber);
-
-    return 0;
-}
+	return 0; 
+} 
