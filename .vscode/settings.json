@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "DennisRitchie.C": "cpp"
+        "DennisRitchie.C": "cpp",
+        "cmath": "cpp"
     }
 }
