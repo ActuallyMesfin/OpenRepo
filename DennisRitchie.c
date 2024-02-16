@@ -15,14 +15,14 @@ double pythagoras(float opposite, float adjacent){
 
 						 /| 	
 						/ |
-					   /  |
-		  Hypotenuse  /	  |	  	  	(Hypotenuse ^ 2) = (Opposite ^ 2) + (Adjacent ^ 2)
-					 /	  | Opposite
-					/	  |
-				   /	  | 	
-				  /		  | 	WHY DID GITHUB FUCK UP MY TRIANGLE? IT LOOKED SO GOOD IN VSCODE?
-				 /		 _| 	
-				/_______|_|	<--90 Deg
+					       /  |
+		  		Hypotenuse    /	  |		(Hypotenuse ^ 2) = (Opposite ^ 2) + (Adjacent ^ 2)
+					     /	  | Opposite
+					    /	  |
+				   	   /	  | 
+				          / 	  | 	
+				         /	 _| 	
+					/_______|_|	<--90 Deg
 
 				Adjacent
 There was absolutely no reason for me to draw this thing but it looks so good I don't regret it
