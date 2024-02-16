@@ -20,7 +20,7 @@ double pythagoras(float opposite, float adjacent){
 					 /	  | Opposite
 					/	  |
 				   /	  | 	
-				  /		  | 	
+				  /		  | 	WHY DID GITHUB FUCK UP MY TRIANGLE? IT LOOKED SO GOOD IN VSCODE?
 				 /		 _| 	
 				/_______|_|	<--90 Deg
 
