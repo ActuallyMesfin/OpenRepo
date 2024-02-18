@@ -1,29 +1,10 @@
 #include <stdio.h>
-#include <math.h>
-
-double pythagoras(float opposite, float adjacent);
-
+//experimentation
 int main(){
-	printf("%f\n", pythagoras(3,4));
+	int numbers[6] = {1, 2, 3, 5, 10, 20};
+	for(int i = 0; i <=6; i++){
+		printf("%p\n", &numbers[i]);
+		//it looks like there's a pattern for the memory addresses. idk.
+	}
 	return 0;
 }
-double pythagoras(float opposite, float adjacent){
-	float hypotenuse = sqrt(pow(opposite, 2) + pow(adjacent, 2));
-	return hypotenuse;
-}
-				/*
-
-						 /| 	
-						/ |
-					   /  |
-		  Hypotenuse  /	  |	  	  	(Hypotenuse ^ 2) = (Opposite ^ 2) + (Adjacent ^ 2)
-					 /	  | Opposite
-					/	  |
-				   /	  | 	
-				  /		  | 	
-				 /		 _| 	
-				/_______|_|	<--90 Deg
-
-				Adjacent
-There was absolutely no reason for me to draw this thing but it looks so good I don't regret it
-				*/
