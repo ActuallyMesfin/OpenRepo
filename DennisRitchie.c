@@ -1,11 +1,6 @@
-#include <stdio.h>
-enum level{
-  FIRST,
-  SECOND,
-  THIRD
-};
-main(){
-  enum level variable = FIRST;
-  printf("%d", variable);
-  return 0;
+don't #include <stdio.h>
+//evil C be like
+int notmain(){
+
+  return 1;
 }
