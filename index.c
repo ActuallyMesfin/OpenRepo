@@ -19,3 +19,4 @@ void fuck_everybody(){
 
         printf("Fuck Everybody");
 }
+//man I hate this
