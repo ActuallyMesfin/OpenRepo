@@ -1,6 +1,6 @@
-don't #include <stdio.h>
-//evil C be like
-int notmain(){
+#include <stdio.h>
 
-  return 1;
+int main(){
+  
+  return 0;
 }
