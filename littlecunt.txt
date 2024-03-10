@@ -1,1 +1,1 @@
-30
+This was supposed to hold some text with write function in c
