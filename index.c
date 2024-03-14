@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int value;
-    int* ptr = &value;
-    printf("%p\n", &value);
-    printf("%p", ptr);
+    int values[3][3] = {{1}, {2}, {3}};
+
+    for(int i = 0; i <= sizeof(values); i++){
+        printf("%p\n", &values);
+    }
     return 0;
 }
