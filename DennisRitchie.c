@@ -1,6 +1,13 @@
 #include <stdio.h>
 
+void func();
+
 int main(){
-  printf("The sun cooked me today");
+  func();
   return 0;
 }
+
+void func(){
+  printf("What do I do?");
+}
+
