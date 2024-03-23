@@ -8,6 +8,6 @@ int main(){
 }
 
 void func(){
-  printf("What do I do?");
+  printf("What do I do? Be patient");
 }
 
