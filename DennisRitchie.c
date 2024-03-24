@@ -1,13 +1,10 @@
+//refresher on pointers
 #include <stdio.h>
 
-void func();
-
 int main(){
-  func();
+  int value, *pValue;
+  pValue = &value;
+  printf("%p\n", &value);
+  printf("%p", pValue);
   return 0;
 }
-
-void func(){
-  printf("What do I do? Be patient");
-}
-
