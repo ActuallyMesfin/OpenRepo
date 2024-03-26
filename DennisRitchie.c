@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main(){
-  int value, *pValue;
-  pValue = &value;
-  printf("%p\n", &value);
-  printf("%p", pValue);
-  return 0;
+  int values[3] = {1, 2, 3};
+  int *ptr = &values[0];
+  printf("Value at Index [0] : %d\n", values[0]);
+  printf("Value of Pointer : %d\n", *ptr);
+  printf("Address of Value : %p\n", &values[0]);
 }
