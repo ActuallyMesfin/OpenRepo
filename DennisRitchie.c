@@ -3,6 +3,8 @@
 int main(){
   int value;
   int* pValue = &value;
-  printf("%p", pValue);//needs a value I guess. Was cool to see though
+  int *pValue2 = &value;
+  printf("%p\n", pValue);
+  printf("%p", pValue2);
   return 0;
 }
