@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main(){
-  int value;
-  int* pValue = &value;
-  int *pValue2 = &value;
-  printf("%p\n", pValue);
-  printf("%p", pValue2);
+  int a = 5;
+  int* b = &a;
+  a = 6;
+  printf("%d", a);
   return 0;
 }
