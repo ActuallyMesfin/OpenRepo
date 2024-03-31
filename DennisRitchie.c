@@ -2,8 +2,8 @@
 
 int main(){
   int a = 5;
-  int* b = &a;
-  a = 6;
-  printf("%d", a);
-  return 0;
+  int *b, *c;
+  b = &a;
+  printf("%d\n", sizeof(b));
+  printf("%d", sizeof(c));
 }
