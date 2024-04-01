@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-  int a = 5;
-  int *b, *c;
-  b = &a;
-  printf("%d\n", sizeof(b));
-  printf("%d", sizeof(c));
+  int a;
+  int *b = &a;
+  int **c = &b;
+  printf("%p\n"), a;
+  printf("%p\n"), b;
+  printf("%p\n"), c;
 }
