@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main(){
- //commit
+    int a, b, c;
 }
