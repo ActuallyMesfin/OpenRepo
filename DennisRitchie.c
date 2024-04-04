@@ -1,11 +1,19 @@
 #include <stdio.h>
 
-int main(){
-    int a = 40;
-    int *b = &a;
-    printf("%d\n", a);
+void swap(int *a, int *b);
 
-    *b = 50;
-    printf("%d\n", a);
+int main(){
+    int a = 5;
+    int b = 6;
+    printf("a: %d\nb: %d\n", a, b);
+    swap(&a, &b);
+    printf("a: %d\nb: %d\n", a, b);
     return 0;
+}
+
+void swap(int *a, int *b){
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
 }
