@@ -1,11 +1,10 @@
-//typecasting
 #include <stdio.h>
 
 int main(){
-    int a = 5;
-    int b = 2;
-    printf("%d / %d = %d\n", a, b, a/b);
-    double c = (double) a / b;
-    printf("%d / %d = %f", a, b, c);
+    int a[3][3];
+    a[0][0] = 0;
+    int *b = &a[0][0];
+    printf("%d\n", a[0][0]);
+    printf("%p", a);
     return 0;
 }
