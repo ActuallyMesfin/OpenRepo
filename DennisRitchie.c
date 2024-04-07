@@ -7,4 +7,5 @@ int main(){
     printf("%d\n", a[0][0]);
     printf("%p", a);
     return 0;
+    //me big sad today
 }
