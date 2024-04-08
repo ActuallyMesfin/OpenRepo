@@ -8,4 +8,5 @@ int main(){
     printf("%p", a);
     return 0;
     //me big sad today
+    //man I have depression I swear
 }
