@@ -12,6 +12,7 @@ int main(){
     printf("Difference : %.2f\n", subtract(a, b));
     printf("Quotient : %.2f\n", divide(a, b));
     printf("Product : %.2f\n", multiply(a, b));
+    printf("RAM taken: %d Bytes", sizeof(a) + sizeof(b));
     return 0;
 }
 
