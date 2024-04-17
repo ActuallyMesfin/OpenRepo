@@ -15,3 +15,7 @@ int main() {
     //I LOVE VIM
     return 0;
 }
+<<<<<<< HEAD
+=======
+//yeee
+>>>>>>> 9aaec8cac9761fac8f7eadff932f088c61b7306d
