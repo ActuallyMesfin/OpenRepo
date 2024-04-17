@@ -12,6 +12,6 @@ int main() {
     printf("%p\n", ptr);
     //printf("%d", sizeof(*ptr));
     free(ptr);
-
+    //I LOVE VIM
     return 0;
 }
