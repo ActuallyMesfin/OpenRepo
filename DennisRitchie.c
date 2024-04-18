@@ -12,7 +12,7 @@ int main() {
     printf("%p\n", ptr);
     //printf("%d", sizeof(*ptr));
     free(ptr);
-    //I LOVE VIM
+    //I LOVE VIM SO MUCH
     return 0;
 }
 <<<<<<< HEAD
