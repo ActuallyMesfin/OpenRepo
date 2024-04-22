@@ -10,7 +10,7 @@ int binarySearch(int arr[], int l, int r, int x)
         // Check if x is present at mid
         if (arr[m] == x)
             return m;//cooment
-            //comment 2
+            //comment 3
 
         // If x greater, ignore left half
         if (arr[m] < x)
