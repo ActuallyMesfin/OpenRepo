@@ -4,11 +4,10 @@
 struct Node
 {
     int data;
-    struct Node *next;
+    struct Node* next;
 };
 
-struct Node *head = NULL;
-struct Node *first = NULL;   
-struct Node *tail = NULL;
+void insert(int value){
+    struct Node* 
+}
 
-one = malloc(sizeof(struct Node));
