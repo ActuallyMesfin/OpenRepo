@@ -17,7 +17,7 @@ typedef struct stack st;
 void createEmptyStack(st *s) {
   s->top = -1;
 }
-
+//Check that ass
 // Check if the stack is full
 int isfull(st *s) {
   if (s->top == MAX - 1)
