@@ -31,6 +31,10 @@ int main() {
   //Now we have just 4 elements
   display();
 
+  deQueue();
+
+  display();
+
   return 0;
 }
 
