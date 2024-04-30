@@ -1,5 +1,5 @@
 // Queue implementation in C
-
+//I want sex
 #include <stdio.h>
 #define SIZE 5
 
