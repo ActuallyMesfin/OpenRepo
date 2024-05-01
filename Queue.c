@@ -1,5 +1,5 @@
 // Queue implementation in C
-//I want sex
+//I am learning networking too this is fun FUCK C
 #include <stdio.h>
 #define SIZE 5
 
