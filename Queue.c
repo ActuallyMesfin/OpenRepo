@@ -1,5 +1,6 @@
 // Queue implementation in C
 //I am learning networking too this is fun FUCK C
+//LIFO
 #include <stdio.h>
 #define SIZE 5
 
