@@ -4,6 +4,7 @@
 //I MISS VIM
 #include <stdio.h>
 #define SIZE 5
+//I despise this so much :3
 
 void enQueue(int);
 void deQueue();
