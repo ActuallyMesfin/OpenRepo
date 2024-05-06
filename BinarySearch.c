@@ -11,6 +11,7 @@ int main(){
             i = i * 2;
         }
         elif(array[i] < target_value){
+            //Mom I am a Gigachad right🐺
             printf("Target above Index[%d]\n", i);
             i = i * 2;
         }
