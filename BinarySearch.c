@@ -13,6 +13,7 @@ int main(){
         elif(array[i] < target_value){
             //Mom I am a Gigachad right🐺
             printf("Target above Index[%d]\n", i);
+            //I <3 C
             i = i * 2;
         }
         else{
