@@ -19,6 +19,7 @@ int main(){
         else{
             printf("%d\n", array[i]);
         }
+//arrays and shi
     }
 
     return 0;
