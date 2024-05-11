@@ -1,6 +1,7 @@
 // Queue implementation in C
 //I am learning networking too this is fun FUCK C
 //LIFO
+//DO I PAY FOR CCNA? IS IT WORTH?
 //I MISS VIM
 #include <stdio.h>
 #define SIZE 5
