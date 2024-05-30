@@ -1,11 +1,15 @@
 #include <stdio.h>
 //nigga
+<<<<<<< HEAD
 //I'm making the greatest website
+=======
+//edit
+>>>>>>> ac7a8b44fdfbb4baae0b01ef40c94790d8793323
 int main(){
     int array[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int elements = sizeof(array)/sizeof(array[0]);
     int target_value = 3;
-
+//THE NIGHT BEGINS TO SHINE🗣️🔥
     for(int i = elements/2; i <= elements; i++){
         if(array[i] > target_value){
             printf("Target below Index[%d]\n", i);
