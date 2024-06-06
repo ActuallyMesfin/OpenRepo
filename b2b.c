@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <time.h>
+#include <math.h>
 
-int main(){
-    for(int i = 0; i < 10; i++){
-        printf("/");
-    }
-    return 0;
+#define gravity 9.8
+
+float period(){
+
 }
