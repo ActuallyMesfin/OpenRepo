@@ -1,5 +1,5 @@
 #include <stdio.h>
-//nigga
+//mane it's been a while
 <<<<<<< HEAD
 //I'm making the greatest website
 =======
