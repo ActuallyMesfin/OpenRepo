@@ -1,6 +1,7 @@
 #include <stdio.h>
 //mane it's been a while
 <<<<<<< HEAD
+    //Final exams are cooking me
 //I'm making the greatest website
 =======
 //edit
